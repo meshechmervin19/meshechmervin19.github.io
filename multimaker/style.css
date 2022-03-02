@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: #181818;
+    color: #fff;
+    overflow: hidden;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    flex: 1;
+}
+
+/* SIGN IN */
+#signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 0.5rem;
+}
+
+#signin form {
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+#signin .logo{
+    margin-bottom: 8vh;
+}
+
+#signin .logo img {
+    width: 300px;
+}
+
+#signin label {
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
+#signin .text-input {
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    background: #181818;
+    border: 2px solid #555;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+}
+
+#sign .primary-btn {
+    width: 100%;
+}
+
+#sign .secondaty-btn,
+.or,
+.links {
+    width: 60%;
+}
+
+#signon .links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#signin .or {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+
+#signin .or .bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #aaa;
+}
+
+#signin .or span {
+    color: #ccc;
+    padding: 0 0.8rem;
+}
+
+/* SHOWCASE */
+#showcase {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+}
+
+#showcase .showcase-text {
+    font-size: 2rem;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+#showcase .secondaty-btn {
+    width: 60%;
+    margin: auto;
+}
+
+/* FOOTER */
+#main-footer {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 80%;
+    padding-top: 0.5rem;
+}
+
+#main-footer a {
+    color: #b02324;
+    text-decoration: none;
+}
+
+/* BUTTON */
+.primary-btn {
+    padding: 0.7rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    background: #b02324;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s
+}
+
+.primary-btn:hover {
+    background: #fcb045;
+}
+
+.secondary-btn {
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 2px solid #fcb045;
+    border-radius: 2px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.secondary-btn:hover {
+    border-color: #fff;
+    color: #fff;
+}
